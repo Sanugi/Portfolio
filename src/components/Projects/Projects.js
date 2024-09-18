@@ -7,7 +7,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import ims from "../../Assets/Projects/ims.jpeg";
-import LocalTrain from "../../Assets/Projects/LocalTrain.jpg";
+import LocalTrain from "../../Assets/Projects/LocalTrain.jpg"; 
+import weatherreport from "../../Assets/Projects/weatherreport.png";
 
 function Projects() {
   return (
@@ -55,23 +56,27 @@ experience.
               imgPath={editor}
               isBlog={false}
               title="portfoilio"
-              description=""
-              ghLink=""
-              demoLink=""              
+              description="The personal portfolio was built and implemented using react js,
+styled components to demonstrate my skills, projects and
+education. The portfolio highlights the clean, responsive design,
+enhance for performance and accessibility. The portfolio includes
+sections for education, projects, experiences and resume, with
+smooth navigation and user-friendly interface.
+"
+              ghLink="https://github.com/Sanugi/Portfolio"            
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={weatherreport}
               isBlog={false}
               title="Portable  Weather Reporting System - Hardware project"
               description="The project was built upon the main cutting-edge technologies namely Ardunio UNO, IR Sensors, temperature Sensors, barometric pressure Sensors, humidity Sensors, wind speed Sensors, wind direction Sensors. The hardware setup is exactly crafted with components namely, LCD, Display, 12C Module, 12V Battery, buzzer and more. 
 
 Technologies: C++ 
 "
-              ghLink=""
-              demoLink=""
+              ghLink="https://github.com/Sanugi/Portable-Weather-Station"
             />
           </Col>
           </Row>
