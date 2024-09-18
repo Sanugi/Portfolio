@@ -2,13 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import ims from "../../Assets/Projects/ims.jpeg";
 import LocalTrain from "../../Assets/Projects/LocalTrain.jpg"; 
 import weatherreport from "../../Assets/Projects/weatherreport.png";
+import portfolio from "../../Assets/Projects/portfolio.png"; 
 
 function Projects() {
   return (
@@ -53,7 +50,7 @@ experience.
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={portfolio}
               isBlog={false}
               title="portfoilio"
               description="The personal portfolio was built and implemented using react js,
