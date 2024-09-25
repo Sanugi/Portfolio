@@ -45,10 +45,7 @@ function Education() {
   />
 </Col>
 
-
-
-          
-          <Col md={4} className="experience-card">
+<Col md={4} className="experience-card">
             <EducationCard
               imgPath={sab}
               isBlog={false}
